@@ -17,3 +17,13 @@ nav_order: 4
 </em>
 </p>
 
+The models refer to: 
+* Full: farming conflict ~ total conflicts + average precipitation anomaly + average temperature anomaly + year#Unrest only: farming conflict ~ total conflicts
+* Climate only: farming conflict ~ average precipitation anomaly + average temperature anomaly
+* Precipitation only: farming conflict ~ average precipitation anomaly
+* Temperature only: farming conflict ~ average temperature anomaly
+* Unrest trend: farming conflict ~ total conflicts + year
+* Climate trend: farming conflict ~ average precipitation anomaly + average temperature anomaly + year
+* Precipitation trend: farming conflict ~ average precipitation anomaly + year
+* Temperature trend: farming conflict ~ average temperature anomaly + year
+* Trend only: farming conflict ~ year

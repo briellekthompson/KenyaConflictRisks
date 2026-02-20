@@ -12,7 +12,7 @@ seo:
 
 ### Developed by: Brielle Thompson
 
-**Exercise timing: ** 3 hours spent on data analysis and model building, 1 hour spent on creating the website, 30 minutes spent on generating the report
+**Exercise timing:** 3 hours spent on data analysis and model building, 1 hour spent on creating the website, 30 minutes spent on generating the report
 
 #### The issue: 
 

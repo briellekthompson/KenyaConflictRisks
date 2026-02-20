@@ -17,6 +17,7 @@ seo:
  * See github respository [here](https://github.com/briellekthompson/KenyaConflictRisks)
    - Data formatting scripts are: Kenya-data.R and TransNzoia-data.R 
    - Analysis scripts are: exploredata.R and exploredataTransNzoia
+   - **NOTE**: to run the scripts the exercise must be downloaded and added as a folder to the R project
 
 #### The issue: 
 

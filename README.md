@@ -27,8 +27,12 @@ Analyze the risks of conflict between farmers and herders due to water-related d
 
 2. Second, I will analyze the risk of farming/water related conflicts at a small spatial scope, focusing on a “bread basket” county (See **Trans Nzoia Analysis** Tab)
 
-3. Third, I note any recommendations and considerations (See **Takeaways Tab**)
+3. Third, I note any recommendations and considerations (See **Takeaways** Tab)
 
 4. Fourth, I display a final graphic summary of the data (See **Final Graphical Representation** tab
 
+#### Climate variables primarily driving the analysis:
+
+*Figure displaying average temperature and precipitation anomalies through time, averaged across space in Kenya*
+<img src="climate_full_dat.png" width="300" height="600" />
 

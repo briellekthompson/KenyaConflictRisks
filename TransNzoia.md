@@ -13,7 +13,7 @@ description: Trans Nzoia Analysis
 
 ## Selecting Trans Nzoia
 
-I conducted the same analysis as the Kenya-wide analysis except I narrowed in on one specific county in Kenya. I selected Trans Nzoia because it is a 
+I conducted the same analysis as the Kenya-wide analysis except I narrowed in on one specific county in Kenya. I selected Trans Nzoia because it is a cropland region with high raindfed crop area with a large number of farming and water related conflicts.
 
 <p align="center">
   <img src="{{ 'TransNzoia_details.png' | relative_url }}" width="900" height="700" alt="Farming conflicts vs climate anomalies over time">
@@ -59,7 +59,7 @@ Again, the top model was the unrest only model, meaning that total conflicts is 
 However, the top model using only the climate data was the precipitation only model. 
 
 
-The models and the respective AIC results are below. 
+The models and the respective AIC results are below, the lowest AIC represents the model that best fit the data, indicated with **
 
 | Model              | AIC  |       
 |:------------------ |:--- -|
@@ -83,7 +83,7 @@ The models and the respective AIC results are below.
 
 
 <p align="center">
-  <img src="{{ 'observed_vs_bestfit_tn.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
+  <img src="{{ 'Observed_vs_bestfit_tn.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
   <br>
   <em> Figure displaying the top model against the true data
 </em>

@@ -28,12 +28,8 @@ The steps and outcomes of this analysis are summarized below.
   * Conflict data filtering:
     - I attempted to filter the conflict data that was related to farming, herding, or water. To do this I filtered out any conflict data event (row) that contained the following words or derivatives of these words: farm, herd, cattle, crop, livestock, flock, harvest, graz, pasture, plantation, stock, agricult, cultivat, plants, animal, ranch, water
 
-<p align="center">
-  <img src= "conflict_data.png" width="500" height="300" />
-  <br>
-  <em>Figure displaying total number of farming related conflicts through time, with colors depicting the % total conflict events that are farming related, the size of the points reflect fatalities attributed to farming conflicts for each year. 
-</em>
-</p>
+<img src= "conflict_data.png" width="500" height="300" />
+
 
   * Temporal match: 
     - Climate data: I summarized the temperature and precipitation anomalies data to be the average for each year across space

@@ -29,7 +29,7 @@ The steps and outcomes of this analysis are summarized below.
     - I attempted to filter the conflict data that was related to farming, herding, or water. To do this I filtered out any conflict data event (row) that contained the following words or derivatives of these words: farm, herd, cattle, crop, livestock, flock, harvest, graz, pasture, plantation, stock, agricult, cultivat, plants, animal, ranch, water
 
 <p align="center">
-  <img src="conflict_data.png" width="500" height="300" />
+  <img src= "conflict_data.png" width="500" height="300" />
   <br>
   <em>Figure displaying total number of farming related conflicts through time, with colors depicting the % total conflict events that are farming related, the size of the points reflect fatalities attributed to farming conflicts for each year. 
 </em>
@@ -40,7 +40,7 @@ The steps and outcomes of this analysis are summarized below.
     - Conflict data: I created two statistics 1) a statistic of the total number conflict each year, and 2) statistic of the total number of farming related conflicts each year
     
 <p align="center">
-  <img src="conflict_v_climatedata.png" width="500" height="300" />
+  <img src= "conflict_v_climatedata.png" width="500" height="300" />
   <br>
   <em>Figure displaying the farming related conflicts against the two climate data sets through time
 </em>

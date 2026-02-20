@@ -12,13 +12,15 @@ seo:
 
 ### Developed by: Brielle Thompson
 
-**Exercise timing:** 3 hours spent on data analysis and model building, 1 hour spent on creating the website, 30 minutes spent on generating the report
+**Exercise timing:** 2.5 hours spent on data analysis and model building, 2 hours spent on creating the website, 30 minutes spent on generating the report
+ * See exercise write up [here](BrielleKThompson_ExerciseWriteup.pdf)
+ * See github respository [here](https://github.com/briellekthompson/KenyaConflictRisks)
+   - Data formatting scripts are: Kenya-data.R and TransNzoia-data.R 
+   - Analysis scripts are: exploredata.R and exploredataTransNzoia
 
 #### The issue: 
 
 Nearly 80% of the world’s agricultural land and nearly all of the world’s grazing land relies on rainfall as its sole source of water, so drought impacts crop and cattle production, affecting both income and nutrition. As herders alter their migration patterns in response to drought, they may come into conflict with farmers. The US Intelligence Community is concerned about humanitarian disasters as well as unrest that stem from drought conditions. 
-
-<img src="conflict.gif" width="300" height="300" />
 
 <p align="center">
   <img src="{{ 'conflict.gif' | relative_url }}" width="300" height="300" alt="Farming conflicts vs climate anomalies over time">
@@ -40,8 +42,6 @@ Analyze the risks of conflict between farmers and herders due to water-related d
 4. Fourth, I display a final graphic summary of the data (See **Final Graphical Representation** tab
 
 #### Climate variables primarily driving the analysis:
-
-<img src="climate_full_dat.png" width="300" height="600" />
 
 <p align="center">
   <img src="{{ 'climate_full_dat.png' | relative_url }}" width="300" height="600" alt="Farming conflicts vs climate anomalies over time">

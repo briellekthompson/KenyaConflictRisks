@@ -12,6 +12,8 @@ seo:
 
 ### Developed by: Brielle Thompson
 
+**Exercise timing: ** 3 hours spent on data analysis and model building, 1 hour spent on creating the website, 30 minutes spent on generating the report
+
 #### The issue: 
 
 Nearly 80% of the world’s agricultural land and nearly all of the world’s grazing land relies on rainfall as its sole source of water, so drought impacts crop and cattle production, affecting both income and nutrition. As herders alter their migration patterns in response to drought, they may come into conflict with farmers. The US Intelligence Community is concerned about humanitarian disasters as well as unrest that stem from drought conditions. 

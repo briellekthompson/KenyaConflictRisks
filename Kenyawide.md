@@ -78,7 +78,7 @@ The models and the respective AIC results are below. The AIC is a metric of how 
 | Unrest only**      | 152 |  
 | Unrest trend       | 154 |
 | Full               | 155 |
-| Temperature trend* | 174 | 
+| Temperature trend  | 174 | 
 | Climate trend      | 175 |
 | Trend only         | 177 |
 | Precipitation trend| 179 |
@@ -112,6 +112,6 @@ The summary information from the model revealed that for the unrest only model, 
 <p align="center">
   <img src="{{ 'Diagnostics_kenya_bestmod.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
   <br>
-  <em> Figure displaying the top model against the true data
+  <em> Displaying diagnostic reports
 </em>
 </p>

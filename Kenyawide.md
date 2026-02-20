@@ -7,21 +7,18 @@ description: >-
 ---
 
 
-# Kenya-wide Analysis {: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
-
 1. TOC
 {:toc}
 
 
-## Analysis Question {: #analysis-question}
+## Analysis Question 
 
 Are farming/herding related conflicts a reflection climate conditions,  a function of overall unrest? Or both?
 The steps and outcomes of this analysis are summarized below. 
 
-## Data Preparation {: #data-preparation}
+## Data Preparation 
 
   * Spatial match
     - Climate data: Filtered the climate data to match the spatial extent for the whole country of Kenya. Note that I did not use the land cover or the rainfed area data for the analysis below, but I conducted the filtering for those datasets
@@ -49,4 +46,4 @@ The steps and outcomes of this analysis are summarized below.
 </em>
 </p>
 
-## Model Building {: #model-building}
+## Model Building 

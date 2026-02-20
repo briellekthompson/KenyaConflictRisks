@@ -42,10 +42,76 @@ The steps and outcomes of this analysis are summarized below.
     
 
 <p align="center">
-  <img src="{{ 'conflict_v_climatedata.png' | relative_url }}" width="500" height="300" alt="Farming conflicts vs climate anomalies over time">
+  <img src="{{ 'conflict_v_climatedata.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
   <br>
-  <em>Figure displaying the farming related conflicts against the two climate datasets through time.</em>
+  <em>Figure displaying the farming related conflicts against the two climate data sets through time.</em>
 </p>
 
 
 ## Model Building 
+
+Given that the data is time dependent, I conducted a timeseries analysis (using an AR1 model) to determine how well the different covariate data sets explains the farming conflict data. The following data streams were integrated as predictor variables: total conflicts, average precipitation anomaly, average temperature anomaly, year
+
+
+The models included all combinations of these variables. 
+The models included:
+
+* Full: farming conflict ~ total conflicts + average precipitation anomaly + average temperature anomaly + year#Unrest only: farming conflict ~ total conflicts 
+* Climate only: farming conflict ~ average precipitation anomaly + average temperature anomaly
+* Precipitation only: farming conflict ~ average precipitation anomaly 
+* Temperature only: farming conflict ~ average temperature anomaly
+* Unrest trend: farming conflict ~ total conflicts + year
+* Climate trend: farming conflict ~ average precipitation anomaly + average temperature anomaly + year
+* Precipitation trend: farming conflict ~ average precipitation anomaly + year
+* Temperature trend: farming conflict ~ average temperature anomaly + year
+* Trend only: farming conflict ~ year
+
+## Outcomes: 
+
+The analysis reveals that the top predictor of farming/water related conflicts is due to overall unrest in the country (i.e., the model had the highest AIC value). However, the climatic variable that best predicts the number of farming/water related conflicts is temperature (i.e., the 4th top model according to AIC).  Where a higher temperature contributes to lower number of conflicts (i.e., had a negative slope in the model). 
+
+
+The models and the respective AIC results are below. The AIC is a metric of how well the model fits the data, the lowest AIC represents the model that best fit the data, indicated with **
+
+| Model              | AIC |       
+|:------------------ |:----|
+| Unrest only**      | 152 |  
+| Unrest trend       | 154 |
+| Full               | 155 |
+| Temperature trend* | 174 | 
+| Climate trend      | 175 |
+| Trend only         | 177 |
+| Precipitation trend| 179 |
+| Temperature only   | 183 | 
+| Precipitation only | 183 |
+| Climate only       | 185 |
+
+
+<p align="center">
+  <img src="{{ 'Observed_vs_fitted_kenya.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
+  <br>
+  <em> Displayed how well each of the models performed in predicting the data (farming conflict data shown in brown)
+</em>
+</p>
+
+
+The analysis reveals that the top predictor of farming/water related conflicts is due to overall unrest in the country (i.e., the model had the highest AIC value). However, the climatic variable that best predicts the number of farming/water related conflicts is temperature (i.e., the 4th top model according to AIC).  Where a higher temperature contributes to lower number of conflicts (i.e., had a negative slope in the model). 
+
+<p align="center">
+  <img src="{{ 'observed_vs_bestfit_kenya.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
+  <br>
+  <em> Figure displaying the top model against the true data
+</em>
+</p>
+
+The summary information from the model revealed that for the unrest only model, each 10 total conflicts is associated with the addition of 0.75 farming conflicts (slope of the model) 
+
+
+## Diagnostics:
+
+<p align="center">
+  <img src="{{ 'Diagnostics_kenya_bestmod.png' | relative_url }}" width="800" height="600" alt="Farming conflicts vs climate anomalies over time">
+  <br>
+  <em> Figure displaying the top model against the true data
+</em>
+</p>
